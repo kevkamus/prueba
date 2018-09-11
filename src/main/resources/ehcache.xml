@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<ehcache xsi:noNamespaceSchemaLocation="ehcache.xsd"
+	updateCheck="true" monitoring="autodetect" dynamicConfig="true">
+
+	<!-- <diskStore path="java.io.tmpdir" /> -->
+	<diskStore path="D:\\cache" />
+
+	<!-- <defaultCache eternal="true" maxElementsInMemory="100" -->
+	<!-- overflowToDisk="false" memoryStoreEvictionPolicy="LFU" /> -->
+
+	<!-- <cache name="clienteLstCache" maxElementsInMemory="10000" eternal="false" -->
+	<!-- overflowToDisk="false" memoryStoreEvictionPolicy="LFU" /> -->
+
+	<!-- <cache name="sistemaCache" -->
+	<!-- maxEntriesLocalHeap="10000" -->
+	<!-- maxEntriesLocalDisk="1000" -->
+	<!-- eternal="false" -->
+	<!-- diskSpoolBufferSizeMB="20" -->
+	<!-- timeToIdleSeconds="300" timeToLiveSeconds="600" -->
+	<!-- memoryStoreEvictionPolicy="LFU" -->
+	<!-- transactionalMode="off"> -->
+	<!-- <persistence strategy="localTempSwap" /> -->
+	<!-- </cache> -->
+
+	<cache name="tipoCache" maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="1000" eternal="false" diskSpoolBufferSizeMB="20"
+		timeToIdleSeconds="300" timeToLiveSeconds="600"
+		memoryStoreEvictionPolicy="LFU" transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+</ehcache>

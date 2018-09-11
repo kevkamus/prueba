@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+/*- TABLAS -*/
+.colCen{
+	text-align:center;
+}
+
+.colDer{
+	text-align:right;
+}
+
+.colIzq{
+	text-align:left;
+}
+
+/*- BOTON PARA CABECERA DE PAGINA -*/
+/*-.btnCab{
+	font-size: 12px !important;
+}-*/
+
+/*- DATATABLE ESPACIO TOP -*/
+.table-responsive{
+	margin-top: 0px !important;
+}
+
+/*- CENTRAR DIV -*/
+.divCen{
+	justify-content: center;
+}
+
+/*- SELECT2 ERROR VALIDAR REQUIRED -*/
+.has-error .select2-selection {
+    border: 1px solid #fc4b6c !important;
+    border-radius: 4px !important;
+}
+
+/*- FILEUPLOAD DROPIFY ERROR VALIDAR REQUIRED -*/
+.has-danger .card-body{
+	border: 1px solid #fc4b6c !important;
+    border-radius: 4px !important;
+}
+
+

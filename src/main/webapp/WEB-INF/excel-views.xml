@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+<!--  	<bean id="formatoKardex" class="pe.org.aquarius.sicex.util.FrmtKardex"></bean> -->
+<!--  	<bean id="formatoItem" class="pe.org.aquarius.sicex.util.FrmtItem"></bean> -->
+<!--  	<bean id="rptConciliacionCodigo" class="pe.org.aquarius.sicex.util.RptConciliacionCod"></bean> -->
+<!--  	<bean id="rptConciliacionCodigoSerie" class="pe.org.aquarius.sicex.util.RptConciliacionCodSer"></bean> -->
+<!--  	<bean id="rptConciliacionLoteCodigo" class="pe.org.aquarius.sicex.util.RptConciliacionLotCod"></bean> -->
+<!--  	<bean id="rptConciliacionUbicacionCodigo" class="pe.org.aquarius.sicex.util.RptConciliacionUbiCod"></bean> -->
+<!--  	<bean id="rptConciliacionSubalmacenCodigo" class="pe.org.aquarius.sicex.util.RptConciliacionSubalCod"></bean> -->
+<!--  	<bean id="rptResumenValorizadoCod" class="pe.org.aquarius.sicex.util.RptResumenValorizadoCod"></bean> -->
+<!--  	<bean id="rptResumenValorizadoCodSer" class="pe.org.aquarius.sicex.util.RptResumenValorizadoCodSer"></bean> -->
+<!--  	<bean id="rptResumenValorizadoLotCod" class="pe.org.aquarius.sicex.util.RptResumenValorizadoLotCod"></bean> -->
+<!--  	<bean id="rptResumenValorizadoUbiCod" class="pe.org.aquarius.sicex.util.RptResumenValorizadoUbiCod"></bean> -->
+<!--  	<bean id="rptResumenValorizadoSubalCod" class="pe.org.aquarius.sicex.util.RptResumenValorizadoSubalCod"></bean> -->
+<!--  	<bean id="rptEstatusValorizado" class="pe.org.aquarius.sicex.util.RptEstatusValorizadoG"></bean> -->
+<!--  	<bean id="rptEstatusTipoC" class="pe.org.aquarius.sicex.util.RptEstatusTipoCG"></bean> -->
+<!--  	<bean id="rptItemsEnMalEstado" class="pe.org.aquarius.sicex.util.RptItemsEnMalEstado"></bean> -->
+<!--  	<bean id="capturaXls" class="pe.org.aquarius.sicex.util.CapturaXls"></bean> -->
+<!--  	<bean id="repConcCodDetalleUbicaciones" class="pe.org.aquarius.sicex.util.RptConciliacionCodDetUbicaciones"></bean> -->
+</beans>
